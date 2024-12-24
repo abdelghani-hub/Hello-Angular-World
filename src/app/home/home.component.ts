@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {HousingLocationComponent} from '../housing-location/housing-location.component';
-import {Housinglocation} from "../housinglocation";
+import {HousingLocation} from "../housinglocation";
 
 @Component({
   selector: 'app-home',
@@ -27,7 +27,7 @@ import {Housinglocation} from "../housinglocation";
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
-  housinglocation: Housinglocation = {
+  housinglocation: HousingLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
